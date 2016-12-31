@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 服务器1_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\马林海\AppData\Local\Temp\RSPC6A1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/服务器1_1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\马林海\AppData\Local\Temp\RSPC6A1.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/服务器1_1.pdb" /debug /machine:I386 /out:"Debug/服务器1_1.exe" /pdbtype:sept  ".\Debug\StdAfx.obj" ".\Debug\服务器1_1.obj" ".\Debug\服务器1_1Dlg.obj" ".\Debug\服务器1_1.res" "
+<h3>Output Window</h3>
+Compiling...
+服务器1_1Dlg.cpp
+c:\users\马林海\desktop\双机final\服务器1_3\rsa2.h(898) : warning C4101: 'encryfile' : unreferenced local variable
+c:\users\马林海\desktop\双机final\服务器1_3\rsa2.h(997) : warning C4101: 'decryfile' : unreferenced local variable
+c:\users\马林海\desktop\双机final\服务器1_3\rsa2.h(1136) : warning C4101: 'encryfile' : unreferenced local variable
+c:\users\马林海\desktop\双机final\服务器1_3\rsa2.h(1237) : warning C4101: 'decryfile' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(560) : warning C4101: 'head' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(560) : warning C4101: 'h1' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(560) : warning C4101: 'h2' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(559) : warning C4101: 'p1' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(559) : warning C4101: 'q1' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(1120) : warning C4101: 'head' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(1118) : warning C4101: 'c' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(1120) : warning C4101: 'h1' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(1120) : warning C4101: 'h2' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(1119) : warning C4101: 'p1' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(1120) : warning C4101: 'h3' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(1120) : warning C4101: 'h4' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(1119) : warning C4101: 'q1' : unreferenced local variable
+C:\Users\马林海\Desktop\双机final\服务器1_3\服务器1_1Dlg.cpp(682) : warning C4700: local variable 'c' used without having been initialized
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/服务器1_1.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\服务器1_1.sbr" ".\Debug\服务器1_1Dlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+服务器1_1.exe - 0 error(s), 18 warning(s)
+</pre>
+</body>
+</html>
